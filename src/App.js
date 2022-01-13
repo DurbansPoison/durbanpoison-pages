@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+import logo from './logo.png';
+import decl from './Header.png'
 import './App.css';
-
+import Terminal from './components/Terminal'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+				<img sec={decl} alt="durban poison" />
+				<Terminal />
       </header>
     </div>
   );
